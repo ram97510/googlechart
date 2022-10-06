@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'googlechart'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('googlechart');
+    expect(app['title']).toEqual('googlechart');
   });
 
   it('should render title', () => {
